@@ -21,15 +21,16 @@ export default function RegisterComponent() {
         </div>
 
         <div className="col-md-6 RegisterForm">
+          <h3 className="text-center">JOIN WITH US</h3>
+
           <form>
             <div class="form-group">
               <label for="exampleInputEmail1">Student ID</label>
               <input
-                type="email"
+                type="text"
                 class="form-control"
                 id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Enter email"
+                placeholder="Enter Student ID"
               />
             </div>
 
@@ -49,11 +50,10 @@ export default function RegisterComponent() {
             <div class="form-group">
               <label for="exampleInputEmail1">NIC</label>
               <input
-                type="email"
+                type="text"
                 class="form-control"
                 id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Enter email"
+                placeholder="Enter NIC"
               />
             </div>
             <div class="form-group">
@@ -71,7 +71,7 @@ export default function RegisterComponent() {
                 type="password"
                 class="form-control"
                 id="exampleInputPassword1"
-                placeholder="Password"
+                placeholder="Confirm Password"
               />
             </div>
 
