@@ -6,6 +6,18 @@
   background-size: cover;
 }
 
+.RegisterTitle {
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 10%;
+  color: rgb(8, 59, 104);
+}
+
+.RegisterForm {
+  margin-top: 5%;
+  padding-right: 10%;
+}
+
 @media (max-width: 450px) {
   .RegisterBody {
     height: 100vh;
@@ -13,5 +25,17 @@
     background: url("../../static/mobile_login.png");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .RegisterForm {
+    margin-top: 5%;
+    padding: 6%;
+  }
+
+  .RegisterTitle {
+    margin-top: 5%;
+    padding: 5%;
+
+    color: rgb(10, 42, 70);
   }
 }
