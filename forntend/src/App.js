@@ -1,12 +1,9 @@
-import './App.css';
+import "./App.css";
+
+import RegisterComponent from "./components/RegisterComponent/register";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Leaning Management App</h1>
-
-    </div>
-  );
+  return <RegisterComponent />;
 }
 
 export default App;
