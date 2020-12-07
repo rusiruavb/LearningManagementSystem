@@ -7,7 +7,7 @@ export default function RegisterComponent() {
   return (
     <div className="RegisterBody">
       <div className="row">
-        <div className="col-md-6 RegisterTitle">
+        <div className="col-md-6 d-none d-lg-block RegisterTitle">
           <img src={LOGO} style={{ width: "300px", padding: "0px" }} />
           <h1>Hexagon Acadamy</h1>
           <p>
@@ -20,7 +20,7 @@ export default function RegisterComponent() {
           </p>
         </div>
 
-        <div className="col-md-6 RegisterForm">
+        <div className="col-md-6 col-lg-6 col-sm-12 RegisterForm">
           <h3 className="text-center">JOIN WITH US</h3>
 
           <form>
@@ -75,9 +75,9 @@ export default function RegisterComponent() {
               />
             </div>
 
-            <button type="submit" class="btn btn-primary">
-              Submit
-            </button>
+            <div className="d-flex justify-content-center">
+              <button className="btn btn-outline-primary loginButon">SIGN IN</button>
+            </div>
           </form>
         </div>
       </div>

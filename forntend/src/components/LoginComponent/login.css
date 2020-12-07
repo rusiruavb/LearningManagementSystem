@@ -29,7 +29,7 @@ h1 {
 
 @media (max-width: 450px) {
   .LoginBody {
-    background: url("../../static/login_page.png");
+    background: url("../../static/mobile_login.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

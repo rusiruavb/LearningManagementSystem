@@ -1,7 +1,7 @@
 .RegisterBody {
   height: 100vh;
   overflow-x: hidden;
-  background: url("../../static/web_login.png");
+  background: url("../../static/login_page.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -15,9 +15,9 @@
 }
 
 .RegisterForm {
-  margin-top: 5%;
+  margin-top: 10%;
   padding-right: 10%;
-  padding-left: 5%;
+  padding-left: 12%;
 }
 
 @media (max-width: 450px) {
