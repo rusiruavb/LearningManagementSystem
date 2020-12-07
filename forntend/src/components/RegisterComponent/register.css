@@ -1,12 +1,16 @@
-RegisterBody {
-  background: url("./static/web_login.png");
+.RegisterBody {
+  height: 100vh;
+  overflow-x: hidden;
+  background: url("../../static/web_login.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (max-width: 450px) {
-  RegisterBody {
-    background: url("./static/mobile_login.png");
+  .RegisterBody {
+    height: 100vh;
+    overflow-x: hidden;
+    background: url("../../static/mobile_login.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
