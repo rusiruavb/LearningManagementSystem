@@ -2,6 +2,13 @@
   background: url("../../static/web_login.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin-top: 25%;
+  color: #005dff;
 }
 
 @media (max-width: 450px) {
@@ -9,5 +16,11 @@
     background: url("../../static/mobile_login.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+  h1 {
+    margin-top: 25%;
+    color: #005dff;
   }
 }
