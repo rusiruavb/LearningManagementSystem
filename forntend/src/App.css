@@ -1,15 +1,13 @@
 body {
   background: url("./static/web_login.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   body {
     background: url("./static/mobile_login.png");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
   }
 }
