@@ -1,17 +1,3 @@
-body {
-  background: url("./static/web_login.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media (max-width: 450px) {
-  body {
-    background: url("./static/mobile_login.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
 .App {
   text-align: center;
 }
