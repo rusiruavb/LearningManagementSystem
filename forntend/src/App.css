@@ -47,15 +47,19 @@
   line-height: 1.5;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: 25px;
-  transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  border: 1px solid #315bff;
+  border-radius: 15px;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-control:hover {
+  box-shadow: 0 0 30px rgba(33, 33, 33, 0.2);
 }
 
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #80bdff;
+  border-color: #005dff;
   outline: 0;
   box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
 }

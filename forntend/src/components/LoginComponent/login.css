@@ -1,5 +1,5 @@
 .LoginBody {
-  background: url("../../static/web_login.png");
+  background: url("../../static/login_page.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -15,9 +15,21 @@ h1 {
   width: 500px;
 }
 
+.loginButon {
+  margin-top: 15px;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.loginButon:hover {
+  box-shadow: 0 0 30px rgba(22, 22, 22, 0.384);
+}
+
 @media (max-width: 450px) {
   .LoginBody {
-    background: url("../../static/mobile_login.png");
+    background: url("../../static/login_page.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -28,7 +40,11 @@ h1 {
     color: #005dff;
   }
 
+  .loginLable {
+    color: aliceblue;
+  }
+
   .inputItem {
-    width: 350px;
+    width: 380px;
   }
 }
