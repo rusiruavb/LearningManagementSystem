@@ -18,7 +18,7 @@ const Login = () => {
               <form >
                 <div className="d-flex justify-content-center">
                   <div className="form-group">
-                    <label className="loginLable">Email address</label>
+                    <label>Email address</label>
                     <input type="email" 
                       placeholder="Enter your email"
                       className="form-control inputItem"
@@ -27,7 +27,7 @@ const Login = () => {
                 </div>
                 <div className="d-flex justify-content-center">
                   <div className="form-group">
-                    <label className="loginLable">Password</label>
+                    <label>Password</label>
                     <input type="password" 
                       placeholder="Enter your password"
                       className="form-control inputItem"
@@ -35,7 +35,8 @@ const Login = () => {
                   </div>
                 </div>
                 <div className="d-flex justify-content-center">
-                   <button className="btn btn-outline-primary loginButon">LOGIN</button>
+                   <Button variant="contained" color="primary" disableElevation type="submit"
+                   style={{outline: 'none', width: '200px', height: '40px', fontSize: '18px', background: '#0077FF'}}>login</Button>
                 </div>
               </form>
             </div>

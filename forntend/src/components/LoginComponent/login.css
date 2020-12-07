@@ -16,15 +16,14 @@ h1 {
 }
 
 .loginButon {
-  margin-top: 15px;
   width: 200px;
   height: 50px;
   border-radius: 15px;
-  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition: border-color 0s ease-in-out, box-shadow 0.4s ease-in-out;
 }
 
 .loginButon:hover {
-  box-shadow: 0 0 30px rgba(22, 22, 22, 0.384);
+  box-shadow: 0 0 30px rgba(33, 33, 33, 0.2);
 }
 
 @media (max-width: 450px) {
@@ -38,10 +37,6 @@ h1 {
   h1 {
     margin-top: 30%;
     color: #005dff;
-  }
-
-  .loginLable {
-    color: aliceblue;
   }
 
   .inputItem {
