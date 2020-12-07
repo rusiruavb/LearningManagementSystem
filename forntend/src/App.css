@@ -1,3 +1,13 @@
+body {
+  background: url("./static/web_login.png");
+}
+
+@media (max-width: 768px) {
+  body {
+    background: url("./static/mobile_login.png");
+  }
+}
+
 .App {
   text-align: center;
 }
