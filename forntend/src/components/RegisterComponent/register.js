@@ -2,13 +2,14 @@ import React from "react";
 
 import "./register.css";
 import LOGO from "./img/logo.png";
+import Button from '@material-ui/core/Button';
 
 export default function RegisterComponent() {
   return (
-    <div className="RegisterBody">
+    <div className="RegisterBody container">
       <div className="row">
         <div className="col-md-6 d-none d-lg-block RegisterTitle">
-          <img src={LOGO} style={{ width: "300px", padding: "0px" }} />
+          <img src={LOGO} style={{ width: "300px" }} />
           <h1>Hexagon Acadamy</h1>
           <p>
             We are a leading non-state degree awarding institute approved by the
@@ -76,7 +77,9 @@ export default function RegisterComponent() {
             </div>
 
             <div className="d-flex justify-content-center">
-              <button className="btn btn-outline-primary loginButon">SIGN IN</button>
+              <Button variant="contained" color="primary" disableElevation type="submit"
+                style={{outline: 'none', width: '200px', height: '50px', fontSize: '18px', background: '#0077FF',
+                borderRadius: '15px'}}>SIGN UP</Button>
             </div>
           </form>
         </div>

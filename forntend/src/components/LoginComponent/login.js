@@ -7,7 +7,7 @@ const Login = () => {
   const [password, setPassword] = useState('');
 
   return (
-    <div className="LoginBody">
+    <div className="LoginBody container">
       <div className="row">
         <div className="col-lg-6"></div>
         <div className="col-lg-6 col-sm-12">
@@ -36,7 +36,8 @@ const Login = () => {
                 </div>
                 <div className="d-flex justify-content-center">
                    <Button variant="contained" color="primary" disableElevation type="submit"
-                   style={{outline: 'none', width: '200px', height: '40px', fontSize: '18px', background: '#0077FF'}}>login</Button>
+                   style={{outline: 'none', width: '200px', height: '50px', fontSize: '18px', background: '#0077FF',
+                      borderRadius: '15px'}}>login</Button>
                 </div>
               </form>
             </div>
